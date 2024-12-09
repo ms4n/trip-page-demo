@@ -1,0 +1,317 @@
+{
+  "title": "Nitro Nomads",
+  "slug": "nitro-nomads",
+  "category": "Supercars",
+  "host": {
+    "_id": "507f1f77bcf86cd799439011",
+    "name": "Shrishti Tehri",
+    "slug": "shrishti-tehri",
+    "image": "/images/avatar.jpeg",
+    "bio": "Professional tour guide with 5 years of experience leading luxury car tours across Asia"
+  },
+  "media": [
+    { "type": "video", "src": "/videos/car.webm" },
+    { "type": "image", "src": "/images/event1.png" },
+    { "type": "image", "src": "/images/event2.png" },
+    { "type": "image", "src": "/images/accommodation1.png" },
+    { "type": "image", "src": "/images/accommodation2.png" },
+    { "type": "image", "src": "/images/event1.png" },
+    { "type": "image", "src": "/images/event2.png" }
+  ],
+  "dates": {
+    "start": "2024-08-13T00:00:00.000Z",
+    "end": "2024-08-20T00:00:00.000Z",
+    "displayText": "13th - 20th Aug"
+  },
+  "groupSize": {
+    "count": 15,
+    "displayText": "15 folks"
+  },
+  "spotsLeft": 3,
+  "meals": {
+    "breakfast": 7,
+    "lunch": 5,
+    "dinner": 4,
+    "displayText": "7 Breakfast, 5 Lunch, 4 Dinner included"
+  },
+  "spotlightEvents": [
+    {
+      "title": "Ferrari Track Day",
+      "image": "/images/event1.png",
+      "description": "Experience the thrill of driving a Ferrari on a professional race track"
+    },
+    {
+      "title": "Lamborghini Mountain Run",
+      "image": "/images/event2.png",
+      "description": "Navigate through scenic mountain roads in a Lamborghini"
+    },
+    {
+      "title": "Porsche City Tour",
+      "image": "/images/accommodation1.png",
+      "description": "Explore the city's landmarks in a classic Porsche"
+    },
+    {
+      "title": "McLaren Coast Drive",
+      "image": "/images/accommodation2.png",
+      "description": "Cruise along the coastline in a McLaren supercar"
+    },
+    {
+      "title": "Night City Racing",
+      "image": "/images/event1.png",
+      "description": "Experience the city lights in high-performance cars"
+    },
+    {
+      "title": "Supercar Photography",
+      "image": "/images/event2.png",
+      "description": "Professional photo session with luxury cars"
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 13,
+      "month": "Aug",
+      "title": "Arrival & Introduction",
+      "badges": [
+        { "label": "Arrival", "bgColor": "#4CAF50" },
+        { "label": "Orientation", "bgColor": "#2196F3" }
+      ],
+      "activities": [
+        {
+          "icon": "plane",
+          "title": "VIP Airport Transfer",
+          "description": "Luxury car pickup from the airport",
+          "included": true,
+          "images": ["/images/accommodation1.png"]
+        },
+        {
+          "icon": "hotel",
+          "title": "Hotel Check-in",
+          "description": "Check in to 5-star luxury hotel",
+          "included": true,
+          "images": ["/images/accommodation2.png"]
+        },
+        {
+          "icon": "users",
+          "title": "Welcome Dinner",
+          "description": "Meet your fellow drivers over a gourmet dinner",
+          "included": true,
+          "images": ["/images/event1.png"]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "month": "Aug",
+      "title": "Ferrari Experience",
+      "badges": [
+        { "label": "Track Day", "bgColor": "#FF5722" },
+        { "label": "High Speed", "bgColor": "#E91E63" }
+      ],
+      "activities": [
+        {
+          "icon": "car",
+          "title": "Track Orientation",
+          "description": "Professional driving instruction and track safety briefing",
+          "included": true,
+          "images": ["/images/event2.png"]
+        },
+        {
+          "icon": "gauge",
+          "title": "Ferrari Track Session",
+          "description": "Drive the Ferrari 488 GTB on a professional race track",
+          "included": true,
+          "images": ["/images/accommodation1.png"]
+        },
+        {
+          "icon": "camera",
+          "title": "Photo Session",
+          "description": "Professional photography with the cars",
+          "included": true,
+          "images": ["/images/accommodation2.png"]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "month": "Aug",
+      "title": "Mountain Adventure",
+      "badges": [
+        { "label": "Scenic", "bgColor": "#9C27B0" },
+        { "label": "Adventure", "bgColor": "#FF9800" }
+      ],
+      "activities": [
+        {
+          "icon": "mountain",
+          "title": "Mountain Drive",
+          "description": "Drive through scenic mountain passes in a Lamborghini",
+          "included": true,
+          "images": ["/images/event1.png"]
+        },
+        {
+          "icon": "utensils",
+          "title": "Luxury Lunch",
+          "description": "Gourmet lunch with mountain views",
+          "included": true,
+          "images": ["/images/event2.png"]
+        },
+        {
+          "icon": "camera",
+          "title": "Scenic Photography",
+          "description": "Photo stops at scenic viewpoints",
+          "included": true,
+          "images": ["/images/accommodation1.png"]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "month": "Aug",
+      "title": "City Experience",
+      "badges": [
+        { "label": "Urban", "bgColor": "#607D8B" },
+        { "label": "Luxury", "bgColor": "#795548" }
+      ],
+      "activities": [
+        {
+          "icon": "building",
+          "title": "City Tour",
+          "description": "Explore the city in a Porsche 911",
+          "included": true,
+          "images": ["/images/accommodation2.png"]
+        },
+        {
+          "icon": "shopping-bag",
+          "title": "Shopping Break",
+          "description": "Visit luxury boutiques and car showrooms",
+          "included": true,
+          "images": ["/images/event1.png"]
+        }
+      ]
+    }
+  ],
+  "amenities": {
+    "included": [
+      {
+        "icon": "bed",
+        "title": "5-Star Accommodation",
+        "description": "Luxury hotels throughout the trip",
+        "price": 0
+      },
+      {
+        "icon": "car",
+        "title": "Supercar Fleet",
+        "description": "Access to various luxury and sports cars",
+        "price": 0
+      },
+      {
+        "icon": "shield",
+        "title": "Insurance Coverage",
+        "description": "Comprehensive insurance for all vehicles",
+        "price": 0
+      }
+    ],
+    "notIncluded": [
+      {
+        "icon": "plane",
+        "title": "Flights",
+        "description": "International flights are not included",
+        "price": 0
+      },
+      {
+        "icon": "camera",
+        "title": "Photography Package",
+        "description": "Professional photography sessions are extra",
+        "price": 0
+      }
+    ],
+    "addOns": [
+      {
+        "icon": "user",
+        "title": "Personal Driver",
+        "description": "Optional chauffeur service",
+        "price": 15000
+      },
+      {
+        "icon": "video",
+        "title": "Drone Coverage",
+        "description": "Aerial footage of your drives",
+        "price": 10000
+      }
+    ]
+  },
+  "faqs": {
+    "experience": [
+      {
+        "question": "Do I need a special license?",
+        "answer": "Yes, you need a valid international driving license and at least 5 years of driving experience."
+      },
+      {
+        "question": "What happens in case of car damage?",
+        "answer": "Our comprehensive insurance covers most damages, with a deductible of $1000."
+      },
+      {
+        "question": "Can I choose specific cars?",
+        "answer": "Yes, you can request specific models subject to availability."
+      }
+    ],
+    "general": [
+      {
+        "question": "Is there an age restriction?",
+        "answer": "Drivers must be between 25-65 years old due to insurance requirements."
+      },
+      {
+        "question": "What's included in the price?",
+        "answer": "All car rentals, fuel, insurance, accommodation, and mentioned meals are included."
+      },
+      {
+        "question": "Can I bring a non-driving guest?",
+        "answer": "Yes, non-driving guests are welcome at a reduced price."
+      },
+      {
+        "question": "What's the cancellation policy?",
+        "answer": "Full refund if cancelled 30 days before, 50% refund within 15-29 days."
+      }
+    ]
+  },
+  "accommodations": [
+    {
+      "title": "The Ritz-Carlton",
+      "location": "City Center",
+      "description": "5-star luxury hotel with city views",
+      "images": [
+        "/images/accommodation1.png",
+        "/images/accommodation2.png",
+        "/images/event1.png"
+      ],
+      "roomType": "Deluxe Suite"
+    },
+    {
+      "title": "Mountain Resort & Spa",
+      "location": "Mountain Region",
+      "description": "Exclusive mountain resort with private helipad",
+      "images": [
+        "/images/event2.png",
+        "/images/accommodation1.png",
+        "/images/accommodation2.png"
+      ],
+      "roomType": "Premium Suite"
+    },
+    {
+      "title": "Coastal Luxury Hotel",
+      "location": "Beachfront",
+      "description": "Beachfront property with private access",
+      "images": [
+        "/images/event1.png",
+        "/images/event2.png",
+        "/images/accommodation1.png"
+      ],
+      "roomType": "Ocean View Suite"
+    }
+  ],
+  "pricing": {
+    "original": 250000,
+    "sale": 199999,
+    "bookingAmount": 50000,
+    "currency": "₹"
+  }
+}

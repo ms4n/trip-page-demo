@@ -1,0 +1,30 @@
+.accommodation-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.accommodation-section-title {
+  align-self: stretch;
+  color: #fff;
+  font-family: Geist;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.48px;
+  opacity: 0.95;
+  margin: 0;
+}
+
+.accommodation-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-self: stretch;
+  width: 100%;
+}

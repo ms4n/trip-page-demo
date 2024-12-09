@@ -1,0 +1,125 @@
+.faq-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.faq-title {
+  align-self: stretch;
+  color: #FFF;
+  font-family: Geist;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.48px;
+  opacity: 0.95;
+  margin: 0;
+}
+
+.faq-buttons-outer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.faq-buttons-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.faq-button-active {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: #F5F5F5;
+}
+
+.faq-button-active span {
+  color: #0B0B0B;
+  font-family: Geist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.32px;
+  opacity: 0.95;
+}
+
+.faq-button-inactive {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: #171717;
+}
+
+.faq-button-inactive span {
+  color: #FFF;
+  font-family: Geist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.32px;
+  opacity: 0.6;
+}
+
+.faq-items-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.faq-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  align-self: stretch;
+  border-radius: 12px;
+  background: #121212;
+  height: auto;
+}
+
+.faq-item-text {
+  color: rgba(255, 255, 255, 0.90);
+  font-family: Geist;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.28px;
+}
+
+.faq-item-icon {
+  color: rgba(255, 255, 255, 0.60);
+}
+
+.faq-answer {
+  margin-top: 8px;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: Geist;
+  font-size: 14px;
+  line-height: 20px;
+  max-height: 500px;
+  transition: max-height 0.3s ease-in-out;
+  overflow: hidden;
+  width: 100%;
+}
